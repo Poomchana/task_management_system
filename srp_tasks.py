@@ -99,6 +99,7 @@ class TaskManager:
 
 # --- Main Program ---
 if __name__ == "__main__":
+    print("Finished")
     file_storage = FileTaskStorage("my_tasks.txt")
     manager = TaskManager(file_storage)
 
